@@ -15,6 +15,8 @@
 #
 
 
+PRODUCT_RELEASE_NAME := PBBM00
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/embedded.mk)
 
@@ -25,6 +27,6 @@ $(call inherit-product, vendor/omni/config/common.mk)
 PRODUCT_DEVICE := PBBM00
 PRODUCT_NAME := omni_PBBM00
 PRODUCT_BRAND := OPPO
-PRODUCT_MODEL := PBBM00
+PRODUCT_MODEL := OPPO A7x
 PRODUCT_MANUFACTURER := OPPO
-PRODUCT_RELEASE_NAME := OPPO A7x
+
