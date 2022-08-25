@@ -33,7 +33,7 @@ PRODUCT_MANUFACTURER := OPPO
 # enable stock zip packages flash
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.treble.enabled=true \
-    persist.sys.usb.config=mtp,adb \
+    persist.sys.usb.config=mtp \
     persist.service.adb.enable=1 \
     persist.service.debuggable=1 \
     ro.secure=1 \
